@@ -2,9 +2,14 @@ package main
 
 import "fmt"
 
+const helloString = "Hello "
+
 // Hello func returns: string
 func Hello(name string) string {
-	return "Hello " + name + ", World"
+	if name == "" {
+		return "Hello, World"
+	}
+	return helloString + name + ", World"
 }
 
 func main() {
