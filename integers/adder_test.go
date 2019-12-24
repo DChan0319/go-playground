@@ -1,5 +1,6 @@
 package integers
 
+import "fmt"
 import "testing"
 
 func TestAddr(t *testing.T) {
@@ -9,4 +10,10 @@ func TestAddr(t *testing.T) {
 	if sum != expected {
 		t.Errorf("Expected: %d Actual: %d", expected, sum)
 	}
+}
+
+func ExampleAdd() {
+	sum := Add(1, 5)
+	fmt.Println(sum)
+	// Output: 6
 }
