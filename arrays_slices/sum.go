@@ -1,4 +1,4 @@
-package arrays
+package arrays_slices
 
 // Sum func returns the sum of the integers in the array.
 func Sum(nums []int) int {

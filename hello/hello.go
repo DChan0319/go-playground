@@ -1,7 +1,9 @@
 package hello
 
-import "fmt"
-import "strings"
+import (
+	"fmt"
+	"strings"
+)
 
 // Hello func returns: string
 func Hello(name string, language string) string {

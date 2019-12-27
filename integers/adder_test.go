@@ -1,7 +1,9 @@
 package integers
 
-import "fmt"
-import "testing"
+import (
+	"fmt"
+	"testing"
+)
 
 func TestAddr(t *testing.T) {
 	sum := Add(2, 4)

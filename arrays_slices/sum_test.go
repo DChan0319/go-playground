@@ -1,7 +1,9 @@
-package arrays
+package arrays_slices
 
-import "reflect"
-import "testing"
+import (
+	"reflect"
+	"testing"
+)
 
 func TestSum(t *testing.T) {
 
